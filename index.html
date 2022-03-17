@@ -7,9 +7,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
     <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -21,17 +20,6 @@
             <h5 class="btn btn-danger">Mom</h5>
             <h5 class="btn btn-warning">Sister</h5>
             <h5 class="btn btn-success">Me</h5>
-            <br>
-            <br>
-            <div>
-                <span>
-                    <canvas id="webcam"></canvas>
-                    <canvas id="capturedImg"></canvas>
-                </span>
-            </div>
-            <br>
-            <button type="button" onclick="captureImg()" class="btn btn-secondary">Capture Image</button>
-            <button type="button" onclick="identifyImg()" class="btn btn-dark">Identify Image</button>
             <br>
             <h3 id="name">Name - </h3>
             <h3 id="accuracy">Accuracy - </h3>

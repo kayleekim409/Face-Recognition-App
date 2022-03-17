@@ -1,23 +1,19 @@
 body {
     background-image: url("background.jpg");
 }
+
 h5 {
     color: aqua;
     font-weight: bold;
 }
+
 h3 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: coral;
 }
-#webcam {
-    width: 250px;
-    height: 250px;
+
+canvas {
     border-width: 10px;
     border-style: groove;
-}
-#capturedImg {
-    width: 250px;
-    height: 250px;
-    border-width: 10px;
-    border-style: groove;
+    margin-top: 250px;
 }
